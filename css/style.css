@@ -16,6 +16,22 @@ Common
 ------------
  */
 
+body{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto', sans-serif;
+
+}
+main{
+    color: white;
+}
+h1{
+    color: red;
+}
+
+.email{
+    color: #17ccf2;
+}
+
 main{
 /*     background-color: pink;
  */
@@ -34,8 +50,8 @@ main{
 
 .box{
     width: calc(100% /3 - 60px);
-    /*     background-color: #0f0e17; */
-    background-color: aqua;
+    background-color: #0f0e17;
+
     border: 2px solid pink;
     float: left;
     margin: 25px 15px;
