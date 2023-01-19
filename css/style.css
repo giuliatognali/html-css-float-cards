@@ -16,15 +16,41 @@ Common
 ------------
  */
 
-.container{
+main{
+/*     background-color: pink;
+ */
+}
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .box{
-    width: 200px;
-    height: 100px;
-    background-color: #0f0e17;
+    width: calc(100% /3 - 60px);
+    /*     background-color: #0f0e17; */
+    background-color: aqua;
     border: 2px solid pink;
+    float: left;
+    margin: 25px 15px;
+}
+
+.box-img{
+    float: left;
+    height: 70%;
+}
+
+.img{
+    display: block;
+    height: 100px;
+}
+
+.box-content{
     float: left;
 }
