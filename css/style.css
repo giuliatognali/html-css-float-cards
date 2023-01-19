@@ -9,3 +9,22 @@ Reset
     margin: 0;
     box-sizing: border-box;
 }
+
+/* 
+------------
+Common
+------------
+ */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: #0f0e17;
+    border: 2px solid pink;
+    float: left;
+}
